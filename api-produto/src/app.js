@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://user:pass@cluster0.pteqcvv.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://biriri:0cg98doDI1lFuCLW@cluster0.pteqcvv.mongodb.net/?retryWrites=true&w=majority");
 
 app.use(express.json());
 
